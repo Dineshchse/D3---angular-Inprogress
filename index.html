@@ -1,0 +1,31 @@
+<html ng-app="D3App">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>d3.js</title>
+    <link type="text/css" rel="stylesheet" href="contents/d3.css" />
+
+</head>
+<body>
+<div id="test1" ng-controller="chartController" class="col-md-12">
+    <h1 ng-bind="name"></h1>
+    <svg></svg>
+</div>
+
+</body>
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/angular.min.js"></script>
+<script src="js/vendor/d3.min.js"></script>
+<script src="js/appmodules/controllers/chartController.js"></script>
+<script src="js/appmodules/models/D3LinewithLegend.js"></script>
+<script src="js/appmodules/models/D3legend.js"></script>
+<script src="js/appmodules/models/D3Line.js"></script>
+<script src="js/appmodules/models/D3Area.js"></script>
+<script src="js/appmodules/models/D3Pie.js"></script>
+<script src="js/appmodules/models/D3Bar.js"></script>
+<script src="js/appmodules/models/D3Tooltip.js"></script>
+<script src="js/appmodules/directives/chartDirective.js"></script>
+<script src="js/appmodules/models/baseD3Model.js"></script>
+<script src="js/appmodules/models/d3Data.js"></script>
+<script src="js/appmodules/app.js"></script>
+
+</html>
